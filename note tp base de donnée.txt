@@ -1,0 +1,13 @@
+Note en TP bases de données
+
+Il existe 3 languages en SQL:
+- Language de définition des données (LDD): création de la base de donnée, tables; vues; index
+- Language de manipulation des données (LMD): CRUD (C: insert, R: select, U:?, D: delete)
+- Language de contrôle des données (LCD) 
+use permet de choisir la base de donnée 
+mysql -uroot -P 3306 -p <"........	/iut.sql"                (?)
+/ (c'est antislash)
+tp1
+Affficher les prénoms et noms des étudiants.
+SELECT nom, prenom FROM etudiant;
+Afficher les noms et prénoms des étudiants qui ont passé au moins une interrogation.

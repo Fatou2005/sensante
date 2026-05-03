@@ -1,0 +1,11 @@
+TP BASES DE DONNEEES
+TP1
+Pour supprimer une colonne (sexe) on fait: ALTER TABLE etudiant drop sexe.
+Pour ajouter une colonne sexe, on fait: ALTER TABLE etudiant add sexe char(1) check ('F','M');
+check permet de vérifier des conditions.
+Auto-incrémentation?
+Contrainte d'intégrité référentiel?
+ALTER TABLE classe add contraint dpt?
+TP2
+SELECT*FROM
+Pour changer le nom on utilise update

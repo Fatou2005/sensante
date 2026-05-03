@@ -1,0 +1,9 @@
+Note tp IA
+
+numpy?
+Pour charger des données avec pandas on fait: pd.read.csv(le chemin du fichier)
+pour des fichier excels on fait: pd.read.xls(le chemin du fichier) 
+Pour le nombre de ligne et le nombre de colone on utilise: df.shape()
+df.colonne permet d'afficher le nombre de colonne
+df.describe affiche le nom des colonnes avec quelques lignes
+mtploblib permet de visualiser nos données

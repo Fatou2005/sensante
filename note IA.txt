@@ -1,0 +1,9 @@
+TP LAB 1: (IA)
+Git ignore?
+Environnement virtuelle: il faut le créer quand on travaille sur plusieurs projets pour ne pas mélanger les verions.
+Python -m? (créer l'environnement)
+la bibliothéque pandas permet de manipuler des données.
+matplotlib?
+pip?
+nampay: permet de faire des calculs matriciels et autres.
+

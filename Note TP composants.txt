@@ -1,0 +1,9 @@
+TP reutilisation des composants
+
+les fonction node retourne des chemins
+l'index retourne le numéro du tableau
+On utilise key=index si l'index est unique
+props est juste une appelation.
+Les composants react?
+Dans un fichier on peut définir plusieurs composants.
+Par défaut on ne peut exporter qu'une seule fonction.
