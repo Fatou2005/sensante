@@ -9,3 +9,15 @@ ALTER TABLE classe add contraint dpt?
 TP2
 SELECT*FROM
 Pour changer le nom on utilise update
+CM BASES DE DONNEES
+1ère étape: faire le dictionnaire des données
+2ème étape: Construire le graphe des dépendances fonctionnelles (GDF)
+3ème étape: construire le modèle conceptuel des données(avec un modèle E/A ou avec un diagramme de classe)
+4ème étape: construire le MLD (modèle relationnel)
+5ème étape: implémenter le MPD (modèle physique des données"shéma BD implémenté dans un SGBD")
+Une donnée est une information élémentaire non déductible d'une autre information (ex: le nom de l'étudiant, le prix d'un article, l'âge d'une personne...)
+monovalué et multivalué?
+Les règles R1, R2 ET R3?
+index permet de retrouver automatiquement les informations.
+Une donnée unique peut ne pas être obligatoire.
+

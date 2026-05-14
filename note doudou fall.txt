@@ -1,0 +1,5 @@
+Note Cours Doudou Fall
+Technologie immersive:toute technologie capable de modifier notre perception du monde réel.
+Réalité virtuelle: c'est ce qui permet à un utilisateur de plonger dans un monde totalement virtuelle à travers un casque.
+Réalité augmentée: c'est ajouté des éléments virtuelles dans le monde réel (ex: filtre snap)
+Réalité mixte: c'est la fusion du réel et du virtuel

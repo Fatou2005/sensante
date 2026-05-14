@@ -159,3 +159,8 @@ proba_max = proba.max()
 
 print(f"Diagnostic : {diagnostic}")
 print(f"Probabilité : {proba_max:.1%}")
+# Exercice 1 : Importance des features
+importances = model.feature_importances_
+for name, imp in sorted(zip(feature_cols, importances),
+                        key=lambda x: x[1], reverse=True):
+    print(f"{name} : {imp:.3f}")
