@@ -92,3 +92,20 @@ def predict(patient: PatientInput):
         confiance=confiance,
         message=messages.get(diagnostic, "Consultez un medecin.")
     )
+
+@app.get('/model-info')
+def model_info():
+    return {
+        'type': type(model).__name__,
+        'n_estimators': model.n_estimators,
+        'classes': model.classes_.tolist(),
+        'n_features': model.n_features_in_
+    }
+@app.get("/model-info")
+def model_info():
+    return {
+        "type": type(model).__name__,
+        "n_estimators": model.n_estimators,
+        "classes": model.classes_.tolist(),
+        "n_features": model.n_features_in_
+    }
