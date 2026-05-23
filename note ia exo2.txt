@@ -1,0 +1,6 @@
+Parfait ! Voici le résumé des 3 températures :
+temperature=0.0 — Réponse sobre et directe, peu de wolof, message clair et factuel. Très prévisible.
+temperature=0.5 — Réponse plus naturelle et fluide, bon équilibre entre français et wolof, ton rassurant.
+temperature=1.0 — Réponse plus créative et variée, plus de termes wolof (amma ak si, fiever yu yaram), ton plus expressif mais moins prévisible.
+Conclusion en 3 phrases : Avec temperature=0.0, le LLM répond de façon identique à chaque appel — idéal en médecine pour la cohérence. Avec temperature=0.5, les réponses sont naturelles et variées sans être imprévisibles. Avec temperature=1.0, le LLM devient plus créatif et expressif, mais risque parfois d'être moins précis dans un contexte médical.
+Remets temperature=0.3 dans api/main.py (valeur du lab) et sauvegarde. Ensuite on fait l'Exercice 3. Dis-moi quand c'est fait.Sonnet 4.6
